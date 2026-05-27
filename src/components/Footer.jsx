@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png';
+
 const Footer = () => {
   return (
     <footer className="bg-black text-neutral-400 pt-24 pb-12 border-t border-neutral-900 text-sm">
@@ -6,7 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-20">
           <div className="col-span-2 md:col-span-1 space-y-4">
             <div className="w-10 h-10 border border-white flex items-center justify-center font-bold text-white tracking-tighter rounded-md">
-              C
+              <img src={logo} alt="CRED Logo" className="w-6 h-6">
+              </img>              
             </div>
             <p className="text-xs text-neutral-600 uppercase tracking-widest">Premium Ecosystems</p>
           </div>
