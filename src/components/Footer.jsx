@@ -3,7 +3,6 @@ const Footer = () => {
     <footer className="bg-black text-neutral-400 pt-24 pb-12 border-t border-neutral-900 text-sm">
       <div className="max-w-7xl mx-auto px-6 md:px-20">
         
-        {/* Main Links Matrix */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-20">
           <div className="col-span-2 md:col-span-1 space-y-4">
             <div className="w-10 h-10 border border-white flex items-center justify-center font-bold text-white tracking-tighter rounded-md">
@@ -50,7 +49,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Legal Disclaimer & Stamp */}
         <div className="pt-8 border-t border-neutral-900 flex flex-col md:flex-row justify-between items-center text-xs text-neutral-600 gap-4">
           <p>© 2020-26 Dreamplug Technologies Pvt. Ltd. All rights reserved.</p>
           <div className="flex space-x-6">

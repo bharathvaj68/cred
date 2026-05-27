@@ -11,7 +11,6 @@ const DeserveMore = () => {
                   className="w-full h-full object-cover brightness-135"
                   src= {iphone}
                 />
-                {/* Subtle radial overlay to focus text and ensure deep premium contrast */}
                 <div className=" bg-linear-to-b from-black/40 via-transparent to-black/70 z-10" />
               </div>
       <div className="max-w-7/10 mx-auto flex flex-col justify-content items-start">

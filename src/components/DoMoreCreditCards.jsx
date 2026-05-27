@@ -5,7 +5,6 @@ const DoMoreCreditCards = () => {
     <section className="w-full bg-black text-white py-28 select-none border-t m border-neutral-900/50">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         
-        {/* Left Typography Block */}
         <div className="space-y-6 ml-20 max-w-full">
           <h2 className="font-['Denton'] font-bold text-4xl sm:text-6xl md:text-7xl tracking-tight leading-[1.1] lowercase">
             do more with <br />your credit cards
@@ -15,9 +14,7 @@ const DoMoreCreditCards = () => {
           </p>
         </div>
 
-        {/* Right Block: Placeholder for Rotating Credit Card Video */}
         <div className="relative w-full aspect-square max-w-[500px] mx-auto flex items-center justify-center bg-neutral-950/40 border border-neutral-900 overflow-hidden">
-          {/* INSERT YOUR ROTATING CARD VIDEO HERE */}
           <div className="absolute flex items-center justify-center text-xs text-neutral-600 font-mono tracking-widest uppercase">
             <video
                               autoPlay

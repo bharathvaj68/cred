@@ -8,7 +8,6 @@ const HeroSection = () => {
   return (
     <section className="relative w-full h-screen bg-black overflow-hidden flex flex-col justify-between p-6 md:p-12 text-white select-none">
       
-      {/* 1. Cinematic Background Video Layer */}
       <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
         <video
           autoPlay
@@ -18,26 +17,24 @@ const HeroSection = () => {
           className="w-full h-full object-fill brightness-135"
           src= {video}
         />
-        {/* Subtle radial overlay to focus text and ensure deep premium contrast */}
+
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/70 z-10" />
       </div>
     <section className='w-9/10 mx-auto'>
-      {/* 2. Top Navigation Layer */}
+
       <header className="relative w-full flex justify-between items-center mt-10 z-20">
-        {/* CRED Logo Assembly */}
+
         <motion.div 
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex flex-col items-center space-y-1 cursor-pointer group"
         >
-          {/* Shield-like Hexagonal Structural Logo */}
           <img className="w-15 h-15 text-white" viewBox="0 0 100 100" fill="none" stroke="currentColor" src={logo} strokeWidth="6">
           </img>
           <span className="text-md font-black tracking-[0.3em] uppercase pl-[0.3em]">CRED</span>
         </motion.div>
 
-        {/* Right Status Banner & Toggle Control */}
         <motion.div 
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -57,7 +54,6 @@ const HeroSection = () => {
         </motion.div>
       </header>
 
-      {/* 3. Central Premium Typography */}
       <div className="relative w-full max-w-5xl mx-auto text-center my-20 z-20 px-4">
         <motion.h1 
           initial={{ opacity: 0, y: 30 }}
@@ -79,14 +75,13 @@ const HeroSection = () => {
         </motion.p>
       </div>
 
-      {/* 4. Bottom Right Anchor Floating QR Badge */}
       <motion.div 
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.8 }}
         className="absolute bottom-20 right-20 z-20 border border-white/10 bg-black/40 backdrop-blur-xl p-3 px-5 flex items-center space-x-4 cursor-pointer hover:border-white/20 transition-all shadow-2xl"
       >
-        {/* Synthetic Minimalist Geometric QR Code Vector */}
+
         <div className="w-25 h-25 p-2 flex items-center justify-center rounded-sm">
           <img className='w-full h-full' src={qr}>
           </img>

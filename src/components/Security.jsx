@@ -6,7 +6,6 @@ const Security = () => {
     <section className="py-32 px-6 md:px-20 bg-credDark relative overflow-hidden">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16 relative z-10">
         
-        {/* Left Lock Graphic */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -17,7 +16,6 @@ const Security = () => {
           <RiLockPasswordLine />
         </motion.div>
 
-        {/* Right Info Section */}
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

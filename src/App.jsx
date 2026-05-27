@@ -2,7 +2,7 @@ import Hero from './components/Hero';
 import TrustIntroScroll from './components/TrustIntroScroll';
 import DeserveMore from './components/DeserveMore';
 import DoMoreCreditCards from './components/DoMoreCreditCards';
-import NeoPopUi from './components/NeoPopUi';
+import FeaturesHorizontalScroll from './components/FeaturesHorizontalScroll';
 import Ratings from './components/Ratings';
 import Security from './components/Security';
 import Footer from './components/Footer';
@@ -14,7 +14,7 @@ function App() {
       <TrustIntroScroll />
       <DeserveMore />
       <DoMoreCreditCards />
-      <NeoPopUi />
+      <FeaturesHorizontalScroll />
       <Ratings />
       <Security />
       <Footer />

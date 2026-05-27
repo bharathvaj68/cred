@@ -4,7 +4,6 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 const TrustIntroScroll = () => {
   const containerRef = useRef(null);
   
-  // Track the scroll progress of this specific section
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start center", "end center"]
@@ -19,12 +18,11 @@ const TrustIntroScroll = () => {
       ref={containerRef} 
       className="relative w-9/10 min-h-[140vh] mx-auto bg-black text-white flex items-center px-6 md:px-16 lg:px-32 py-32 z-20 select-none"
     >
-      {/* Text content area strictly constrained to max-w-[40%] */}
       <div className="w-full max-w-full md:max-w-[60%] mx-auto text-left">
         <h2 className='text-2xl sm:text-4xl font-semibold mb-4 uppercase mb-10'>not everyone makes it in.</h2>
         <h2 className="font-['Denton'] font-normal text-3xl sm:text-5xl md:text-7xl tracking-[.05em] leading-[1.5] flex flex-wrap">
           {words.map((word, index) => {
-            // Calculate a localized scroll range for each individual word
+
             const start = index / totalWords;
             const end = (index + 1) / totalWords;
             

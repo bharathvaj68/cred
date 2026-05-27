@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+@plugin "tailwind-scrollbar-hide";
+
 @theme{
   --font-domine: 'Domine', sans-serif;
   --font-denton: 'Denton', sans-serif;
