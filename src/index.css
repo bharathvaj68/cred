@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap);
+
+@import "tailwindcss";
+
+@theme{
+  --font-domine: 'Domine', sans-serif;
+  --font-denton: 'Denton', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: white;
+  font-family: Domine, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Font Face */
+
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Denton';
+  src: url('./fonts/denton/DentonTest-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
